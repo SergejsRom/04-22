@@ -8,4 +8,53 @@ body * {
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #d2e2ff;
 }
+form {
+    background-color: #fdfeff;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+
+}
+
+h1 {
+    text-transform: capitalize;
+    color: #3c009e;
+    font-weight: 300;
+}
+
+#username {
+    background-color: #e8e4fe;
+}
+#email, #phone {
+    background-color: #dedbff;
+    
+}
+#address {
+    background-color: #cac2fe;
+    width: 100%;
+}
+#message {
+    background-color: #a89af9;
+    width: 100%;
+}
+.btn {
+        font-size:large;
+        font-weight: 550;
+        margin: 40px 0 0 20px;
+        background: #5100f7;
+        padding: 10px 40px 10px 40px;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        line-height: 20px;
+        
+    }
+    
+    .btn:hover {
+        cursor: pointer;
+    }
